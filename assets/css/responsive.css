@@ -1,0 +1,142 @@
+/* Mobile */
+@media (max-width: 46.1875em){
+    .s-full-width,
+    .s-col-full{
+        width: 100% !important;
+    }
+
+    #header{
+        overflow: hidden;
+    }
+
+    #header .search-btn{
+        display: none;
+    }
+
+    #header .mobile-menu-btn{
+        display: block;
+    }
+
+    #header .subnav-item-link{
+        color: #fff;
+        padding: 4px 44px;
+    }
+
+    #header .subnav{
+        position: initial;
+        background-color: #333;
+    }
+    
+    #nav{
+        display: block;
+    }
+    
+    #nav > .nav-item{
+        display: block;
+    } 
+    
+    #nav > .nav-item:first-child{
+        display: inline-block;
+    }
+
+    #content .team-members.row{
+        flex-direction: column;
+    }
+
+    #content .mobile-col{
+        margin-top: 20px;
+    }
+
+    #content .team-members{
+        padding: 0;
+    }
+
+    #content .tour-list.row{
+        flex-direction: column;
+    }
+
+    .form-contact.row{
+        flex-direction: column;
+    }
+
+    .form-contact__input-user{
+        margin-top: 8px;
+    }
+
+    .form-contact__input input{
+        width: 100%;
+    }
+
+    .form-contact__input-name{
+        margin-right: 0;
+    }
+
+    .form-contact__input-email{
+        margin-left: 0;
+    }
+
+    .form-contact__info-text{
+        line-height: 1.8;
+    }
+
+}
+
+/* Tablet and Mobile */
+@media (max-width: 63.9375em){
+    #header .nav-item:hover .subnav{
+        display: none;
+    }
+    
+    #tour-section .tour-item__btn{
+        padding: 10px 16px;
+    }
+
+    .form-contact__input-btn{
+        padding: 10px 16px;
+    }
+
+    .form-contact__input input{
+        padding: 10px;
+    }
+
+    .footer-icon{
+        font-size: 36px;
+        margin: 0 8px;
+    }
+
+    .footer-text{
+        margin-top: 30px;
+    }
+
+    .footer-text a{
+        padding: 15px 0;
+    }
+}
+
+/* Tablet */
+@media (min-width: 46.25em) and (max-width: 63.9375em){
+    .m-full-width{
+        width: 100% !important;
+    }
+
+    #header .search-btn{
+        display: block;
+    }
+
+    #header .subnav-item-link{
+        padding-top: 2px;
+        padding-bottom: 2px;
+    }
+
+    .form-contact__info-text{
+        line-height: 2;
+    }
+}
+
+
+/* PC */
+@media (min-width: 64em){
+    #header .search-btn{
+        display: block;
+    }
+}
